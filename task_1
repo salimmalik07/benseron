@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <div  class="top" > 
+          <div class="top-header">
+             <div>14-006</div>
+             <div>walkin</div>
+             <div>Feb 25 2020</div>
+        </div>
+    <table style="width: 100%;"> 
+            <thead class="table-head">
+            <tr><th>$93.23</th></tr>
+            </thead>   
+        
+            <tbody > 
+                <tr><td class="border-upp arrange">BAKERYy</td><td class="border-upp arrange"></td> <td class="border-upp arrange"></td> </tr>
+
+                <tr><td>Add menu</td><td>1</td><td class="rupe">50.00</td></tr>
+                <tr><td>alien menu item gm</td><td>1</td><td class="rupe">20.00</td></tr>
+                <tr><td class="submenu"> bb</td><td>1</td><td class ="rupe">0.00</td></tr>
+                <tr><td>005.Chai Cream BlasTea 1oz liquid</td><td>1</td><td  class="rupe">1.00</td></tr>
+                <tr><td class="submenu">Almond Pwdr</td><td>1</td><td class="rupe">0.00</td></tr>
+            </tbody>
+            
+            
+            <tfoot>
+                    <tr><td class="border-upp arrange">Sub Total</td><td class="border-upp arrange"></td><td class="border-upp arrange">&#36;71.00</td></tr>
+                    <tr><td class=>Tax</td><td></td><td>&#36;28.98</td></tr>
+                    <tr><td>Total</td><td></td><td>&#36;93.23</td></tr>
+                    <tr><td class="border-bot">Paid Amount</td><td class="border-bot"></td><td class="border-bot">&#36;0.00</td> </tr>
+            </tfoot>
+        
+    </table>
+        </div>
+    </body>
+    </html>    
+    
+    
+    
+    
+    
+    
+    
+    
+    //////////////////////////////////////////sytle sheet//////////////////////////////////////////////////////////////////////
+    .border-bot{
+    border-bottom:1px dashed black;
+
+ }
+ .border-upp{
+    border-top:1px dashed black;
+
+ }
+ .arrange{
+    width: 70%;
+}
+
+
+.top-header{
+ display: flex;
+justify-content: space-between;
+  max-width:300px;
+ }
+.top{
+    max-width:350px; 
+    margin:auto;
+}
+caption {
+    font-size: xx-large;
+}
+tbody{
+    display:block;
+    height: 200px;
+}
+.submenu
+{
+    font-weight: bolder;
+     text-indent:10px; 
+     color:dimgray
+}
+.rupe{
+    text-align: right;
+}
+tfoot{
+    display:block ; height: 200px; width:100%;
+}
+table{
+    max-width: 100%;
+}
+.table-head {
+
+    font-size: xx-large; 
+
+    column-span: 3;
+}
+         
